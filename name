@@ -1,0 +1,17 @@
+Creating a blockchain (called name)
+
+multichain-util create [chain-name]  10011 
+~/.multichain/[chain-name]/ params.dat
+multichaind [chain-name] -daemon
+
+Block creation
+mining-diversity
+mining-requires-peers
+
+Connect to blockchain
+multichaind chain1@12.34.56.78:8571 -daemon
+
+
+To make commands
+multichain-cli
+
